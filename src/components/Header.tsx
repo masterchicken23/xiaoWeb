@@ -1,9 +1,9 @@
 import { mailto, site } from "../lib/site";
 
 const links = [
-  { label: "Work", href: "#work" },
-  { label: "Social", href: "#social" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "#top" },
+  { label: "Video Production", href: "#work" },
+  { label: "Social Media", href: "#reels" },
 ];
 
 export function Header() {

@@ -59,7 +59,7 @@ export function BigVideo() {
               Fashion Film · Concept · Direction · Edit
             </p>
             <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">
-              Chelsea Nizan —<br />
+              Chelsea Nizan <br />
               Autumn/Winter
             </h2>
             <p className="mt-2 font-signature text-3xl text-white/90 sm:text-4xl">
