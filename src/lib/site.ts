@@ -5,7 +5,7 @@ export const site = {
   phone: "(289) 906-2682",
   location: "Toronto, Ontario",
   instagram: "https://instagram.com/",
-  linkedin: "https://linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/xiaoyisong/",
 };
 
 export const mailto = `mailto:${site.email}?subject=${encodeURIComponent(
