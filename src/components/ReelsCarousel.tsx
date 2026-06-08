@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { YorkLogo } from "./YorkLogo";
-import { InstagramIcon, PlayIcon } from "./icons";
+import { PlayIcon } from "./icons";
+import instagramLogo from "../assets/Instagram_logo_2016.svg.png";
 
 const ADVANCE_MS = 7000;
 
@@ -114,12 +115,16 @@ export function ReelsCarousel() {
   return (
     <section id="reels" className="overflow-hidden bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
-        <p className="font-serif text-base italic text-ink/80">Social Media Content</p>
+        <p className="font-serif text-2xl italic text-ink/80 sm:text-3xl">Social Media Content</p>
 
         {/* Account + stats */}
         <div className="mt-8 flex flex-col items-center text-center">
           <div className="flex items-center gap-3">
-            <InstagramIcon className="h-7 w-7 text-ink" />
+            <img
+              src={instagramLogo}
+              alt="Instagram"
+              className="h-7 w-7 rounded-[7px]"
+            />
             <span className="h-6 w-px bg-line" />
             <YorkLogo className="h-8" />
             <span className="h-6 w-px bg-line" />

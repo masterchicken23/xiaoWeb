@@ -48,7 +48,7 @@ export function BigVideo() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30" />
 
         {/* top label */}
-        <p className="absolute left-5 top-5 font-serif text-base italic text-white/85 sm:left-10 sm:top-8">
+        <p className="absolute left-5 top-5 font-serif text-2xl italic text-white/85 sm:left-10 sm:top-8 sm:text-3xl">
           Post Production
         </p>
 
